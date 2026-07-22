@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="高校智能体应用展示，聚焦教学、学习、管理与校园服务场景。">
+  <title>高校智能体应用展示｜AI Agent Showcase</title>
+  <link rel="icon" href="data:,">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand__symbol" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2.8 14.1 8l5.1 2.1-5.1 2.1L12 17.4l-2.1-5.2-5.1-2.1L9.9 8 12 2.8Z"/><path d="m18.2 15.2.9 2.2 2.1.9-2.1.9-.9 2.2-.9-2.2-2.1-.9 2.1-.9.9-2.2Z"/></svg>
+        </span>
+        <span class="brand__text">
+          <strong>高校智能体</strong>
+          <small>AI AGENT SHOWCASE</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="#about">智能体概览</a>
+        <a class="nav-link" href="#solutions">智能体方案</a>
+        <a class="nav-link" href="#advantages">应用价值</a>
+        <a class="nav-link" href="#showcase">成果展示</a>
+      </nav>
+
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="打开导航菜单" data-menu-toggle>
+        <svg class="menu-toggle__open" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="menu-toggle__close" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="移动端导航" data-mobile-menu>
+      <div class="container mobile-menu__inner">
+        <a class="mobile-link" href="#about"><span>01</span>智能体概览</a>
+        <a class="mobile-link" href="#solutions"><span>02</span>智能体方案</a>
+        <a class="mobile-link" href="#advantages"><span>03</span>应用价值</a>
+        <a class="mobile-link" href="#showcase"><span>04</span>成果展示</a>
+      </div>
+    </nav>
+    <button class="menu-scrim" type="button" aria-label="关闭导航菜单" tabindex="-1" data-menu-scrim></button>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__arc" data-parallax aria-hidden="true">
+        <svg class="hero__wave-band" viewBox="0 0 1000 640" preserveAspectRatio="none">
+          <path class="hero__wave-band-fill" data-wave-band-fill></path>
+          <path class="hero__wave-band-line" data-wave-band-line></path>
+        </svg>
+        <span class="hero__fluid">
+          <span class="hero__fluid-current"></span>
+        </span>
+        <span class="hero__arc-line"></span>
+      </div>
+
+      <div class="orbit-chip orbit-chip--one" aria-hidden="true">
+        <span class="orbit-chip__dot"></span>课程
+      </div>
+      <div class="orbit-chip orbit-chip--two" aria-hidden="true">
+        <span class="orbit-chip__dot"></span>知识
+      </div>
+      <div class="orbit-chip orbit-chip--three" aria-hidden="true">
+        <span class="orbit-chip__dot"></span>服务
+      </div>
+      <div class="orbit-chip orbit-chip--four" aria-hidden="true">
+        <span class="orbit-chip__dot"></span>管理
+      </div>
+
+      <div class="container hero__content">
+        <div class="eyebrow hero__eyebrow hero-enter" style="--enter-delay: 40ms">
+          <span class="eyebrow__line"></span>
+          <span>UNIVERSITY AI AGENT SHOWCASE</span>
+        </div>
+
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__title-line"><span style="--enter-delay: 70ms">让每一所高校</span></span>
+          <span class="hero__title-line"><span style="--enter-delay: 110ms">拥有真正懂教学的</span></span>
+          <span class="hero__title-line"><span class="gradient-text" style="--enter-delay: 150ms">智能体</span></span>
+        </h1>
+
+        <p class="hero__lede hero-enter" style="--enter-delay: 180ms">
+          聚焦高校真实场景，让课程知识、教学服务与校园需求<br class="desktop-only">
+          在智能体中被理解、被连接、被持续使用。
+        </p>
+
+        <div class="hero__actions hero-enter" style="--enter-delay: 210ms">
+          <a class="button button--primary shooting-star-button" href="#solutions">
+            <span>探索智能体方案</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            <span class="shooting-star" aria-hidden="true"></span>
+          </a>
+          <a class="button button--ghost" href="#showcase">
+            <span>查看成品展示</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 12h8M12 8l4 4-4 4"/></svg>
+          </a>
+        </div>
+
+        <div class="hero__note hero-enter" style="--enter-delay: 240ms">
+          <span></span>
+          面向高校 · 场景共创 · 持续服务
+          <span></span>
+        </div>
+      </div>
+
+      <div class="container hero-metrics hero-enter" style="--enter-delay: 270ms" aria-label="服务能力概览">
+        <div class="metric metric--lead">
+          <span class="metric__value"><span data-count="3">0</span><small>项</small></span>
+          <span class="metric__label">核心服务维度</span>
+        </div>
+        <div class="metric">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/><path d="m17 15 3 3-3 3"/></svg>
+          <span><strong>全流程</strong><small>从需求到落地</small></span>
+        </div>
+        <div class="metric">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s7-4.35 7-11a7 7 0 1 0-14 0c0 6.65 7 11 7 11Z"/><circle cx="12" cy="10" r="2.2"/></svg>
+          <span><strong>多场景</strong><small>教学 · 服务 · 管理</small></span>
+        </div>
+        <div class="metric">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v6h-6"/></svg>
+          <span><strong>可持续</strong><small>知识与能力迭代</small></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-label="智能体能力链路">
+      <div class="manifesto__inner">
+        <span class="manifesto__eyebrow" aria-hidden="true">AGENT CAPABILITY SIGNAL</span>
+        <ul class="manifesto__rail">
+          <li class="manifesto__item"><span class="manifesto__index">01</span><strong>场景共创</strong><i aria-hidden="true"></i></li>
+          <li class="manifesto__item"><span class="manifesto__index">02</span><strong>知识沉淀</strong><i aria-hidden="true"></i></li>
+          <li class="manifesto__item"><span class="manifesto__index">03</span><strong>智能问答</strong><i aria-hidden="true"></i></li>
+          <li class="manifesto__item"><span class="manifesto__index">04</span><strong>教学服务</strong><i aria-hidden="true"></i></li>
+          <li class="manifesto__item"><span class="manifesto__index">05</span><strong>管理协同</strong><i aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-intro section-intro--split reveal-group">
+          <div>
+            <div class="eyebrow reveal"><span class="eyebrow__line"></span><span>AGENT OVERVIEW</span></div>
+            <h2 class="section-title reveal" id="about-title">一个入口，连接<br><span class="gradient-text">高校知识</span>与服务场景</h2>
+          </div>
+          <div class="section-copy reveal">
+            <p>高校智能体将分散的课程资源、校本知识与服务流程组织为可对话、可理解、可调用的统一入口，让信息更容易抵达真正需要它的人。</p>
+            <p>它可以面向教师、学生与管理人员，在教学辅助、知识问答、校园咨询和业务协同等场景中提供连续、清晰的智能体验。</p>
+            <div class="editable-note">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <span><strong>展示重点</strong>页面仅呈现智能体能力、应用价值、建设路径与成品示意。</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-system reveal" aria-label="高校智能体能力连接示意图">
+          <div class="about-system__grid" aria-hidden="true"></div>
+          <div class="about-system__orbit about-system__orbit--outer" aria-hidden="true"></div>
+          <div class="about-system__orbit about-system__orbit--inner" aria-hidden="true"></div>
+          <div class="system-node system-node--top"><span>教学资源</span><small>CONTENT</small></div>
+          <div class="system-node system-node--right"><span>校园服务</span><small>SERVICE</small></div>
+          <div class="system-node system-node--bottom"><span>知识问答</span><small>KNOWLEDGE</small></div>
+          <div class="system-node system-node--left"><span>管理协同</span><small>WORKFLOW</small></div>
+          <div class="system-core">
+            <span class="system-core__pulse" aria-hidden="true"></span>
+            <span class="system-core__mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2.8 14.1 8l5.1 2.1-5.1 2.1L12 17.4l-2.1-5.2-5.1-2.1L9.9 8 12 2.8Z"/><path d="M17.8 15.3v5.2M15.2 17.9h5.2"/></svg>
+            </span>
+            <strong>高校智能体</strong>
+            <small>AI AGENT</small>
+          </div>
+          <svg class="system-lines" aria-hidden="true" viewBox="0 0 800 420" preserveAspectRatio="none">
+            <path d="M400 210C400 125 400 95 400 48"/>
+            <path d="M400 210C520 210 600 210 706 210"/>
+            <path d="M400 210C400 300 400 330 400 375"/>
+            <path d="M400 210C280 210 198 210 94 210"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section solutions" id="solutions" aria-labelledby="solutions-title">
+      <div class="container">
+        <div class="section-intro section-intro--center">
+          <div class="eyebrow reveal"><span class="eyebrow__line"></span><span>AGENT SOLUTIONS</span></div>
+          <h2 class="section-title reveal" id="solutions-title">智能体，从概念走进<span class="gradient-text">校园场景</span></h2>
+          <p class="section-lede reveal">以下为可规划的能力方向，具体范围将结合学校业务、知识资源与建设目标共同确定。</p>
+        </div>
+
+        <div class="capability-grid stagger-group">
+          <article class="capability-card spotlight-card reveal">
+            <div class="capability-card__top">
+              <span class="icon-box"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg></span>
+            </div>
+            <span class="capability-card__index">01 / KNOWLEDGE</span>
+            <h3>高校知识库智能体</h3>
+            <p>围绕校本资料、制度文件与业务知识，构建可追溯、可维护的智能问答入口。</p>
+          </article>
+
+          <article class="capability-card capability-card--featured spotlight-card reveal">
+            <div class="capability-card__top">
+              <span class="icon-box"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/><circle cx="12" cy="12" r="3"/></svg></span>
+            </div>
+            <span class="capability-card__index">02 / TEACHING</span>
+            <h3>课程教学智能助教</h3>
+            <p>连接课程内容与教学任务，为课前、课中、课后提供连续的教学辅助体验。</p>
+            <div class="featured-orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+          </article>
+
+          <article class="capability-card spotlight-card reveal">
+            <div class="capability-card__top">
+              <span class="icon-box"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/><path d="M8 9h8M8 13h5"/></svg></span>
+            </div>
+            <span class="capability-card__index">03 / SERVICE</span>
+            <h3>校园咨询服务智能体</h3>
+            <p>承接高频咨询与办事指引，帮助师生更快定位信息、流程与服务入口。</p>
+          </article>
+
+          <article class="capability-card spotlight-card reveal">
+            <div class="capability-card__top">
+              <span class="icon-box"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 21h18M6 18V9M10 18V5M14 18v-7M18 18V3"/></svg></span>
+            </div>
+            <span class="capability-card__index">04 / INSIGHT</span>
+            <h3>教学数据解读助手</h3>
+            <p>将复杂数据转化为更易理解的分析线索，为教学观察与业务研判提供辅助。</p>
+          </article>
+
+          <article class="capability-card spotlight-card reveal">
+            <div class="capability-card__top">
+              <span class="icon-box"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg></span>
+            </div>
+            <span class="capability-card__index">05 / RESEARCH</span>
+            <h3>科研与文献辅助智能体</h3>
+            <p>面向资料整理、研究线索与文献阅读等环节，提供规范、可控的智能辅助。</p>
+          </article>
+
+          <article class="capability-card spotlight-card reveal">
+            <div class="capability-card__top">
+              <span class="icon-box"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2v6M12 16v6M4.93 4.93l4.24 4.24M14.83 14.83l4.24 4.24M2 12h6M16 12h6M4.93 19.07l4.24-4.24M14.83 9.17l4.24-4.24"/><circle cx="12" cy="12" r="3"/></svg></span>
+            </div>
+            <span class="capability-card__index">06 / CUSTOM</span>
+            <h3>场景化定制智能体</h3>
+            <p>从真实业务目标出发，组合知识、流程与交互能力，形成贴合学校的专属方案。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages" id="advantages" aria-labelledby="advantages-title">
+      <div class="advantages__noise" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-intro section-intro--center section-intro--on-color">
+          <div class="eyebrow reveal"><span class="eyebrow__line"></span><span>APPLICATION VALUE</span></div>
+          <h2 class="section-title reveal" id="advantages-title">让知识更易获得，<br>让服务<span>更有连续性</span></h2>
+          <p class="section-lede reveal">从信息获取到业务协同，智能体围绕真实校园任务提供更自然、更统一的交互方式。</p>
+        </div>
+
+        <div class="advantage-grid stagger-group">
+          <article class="advantage-card reveal">
+            <div class="advantage-card__number">01</div>
+            <svg class="advantage-card__icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg>
+            <h3>统一知识入口</h3>
+            <p>把分散的课程资料、制度文件与服务信息组织成可对话的知识入口。</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <div class="advantage-card__number">02</div>
+            <svg class="advantage-card__icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2 3 7l9 5 9-5-9-5Z"/><path d="m3 12 9 5 9-5M3 17l9 5 9-5"/></svg>
+            <h3>贴合教学过程</h3>
+            <p>覆盖课前导学、课中辅助与课后答疑，让智能能力融入连续教学过程。</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <div class="advantage-card__number">03</div>
+            <svg class="advantage-card__icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <h3>连接服务场景</h3>
+            <p>识别师生问题与办事意图，将答案、流程与服务入口自然地连接起来。</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <div class="advantage-card__number">04</div>
+            <svg class="advantage-card__icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v6h-6"/></svg>
+            <h3>持续生长进化</h3>
+            <p>知识、回答规则与应用场景可以持续完善，让智能体随使用不断成长。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase" id="showcase" aria-labelledby="showcase-title">
+      <div class="showcase__glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-intro section-intro--split section-intro--align-end">
+          <div>
+            <div class="eyebrow reveal"><span class="eyebrow__line"></span><span>SELECTED WORK</span></div>
+            <h2 class="section-title reveal" id="showcase-title">成品展示，<br><span class="gradient-text">为真实成果留位</span></h2>
+          </div>
+          <div class="section-copy reveal">
+            <p>版式与交互已经准备好。后续只需替换学校名称、智能体截图、核心功能和项目成效，即可形成正式案例展示。</p>
+            <span class="status-badge"><i></i>等待项目资料</span>
+          </div>
+        </div>
+
+        <div class="showcase-controls">
+          <span class="swipe-hint" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M3 12h18"/></svg>
+            左右滑动探索
+          </span>
+          <span class="showcase-dots" role="group" aria-label="选择展示项目">
+            <button class="is-active" type="button" aria-label="查看第 1 个展示项目" aria-current="true" data-showcase-dot></button>
+            <button type="button" aria-label="查看第 2 个展示项目" data-showcase-dot></button>
+            <button type="button" aria-label="查看第 3 个展示项目" data-showcase-dot></button>
+            <button type="button" aria-label="查看第 4 个展示项目" data-showcase-dot></button>
+          </span>
+        </div>
+
+        <div class="showcase-grid" data-showcase-track role="region" aria-label="智能体成品横向展示">
+          <article class="project-card project-card--hero spotlight-card reveal">
+            <div class="project-card__visual project-visual project-visual--assistant" role="img" aria-label="智能教学助手界面示意图">
+              <div class="mock-window">
+                <div class="mock-window__top"><i></i><i></i><i></i><span>AI TEACHING ASSISTANT</span></div>
+                <div class="assistant-ui">
+                  <div class="assistant-ui__side">
+                    <span class="mock-logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 8l4.5 2-4.5 2-2 4.5-2-4.5-4.5-2L10 8l2-4.5Z"/></svg></span>
+                    <i></i><i></i><i></i><i></i>
+                  </div>
+                  <div class="assistant-ui__main">
+                    <span class="assistant-ui__eyebrow">课程智能体</span>
+                    <strong>今天想了解什么？</strong>
+                    <div class="prompt-line"><span></span><i></i></div>
+                    <div class="suggestion-row"><span>知识问答</span><span>课程导学</span><span>作业辅助</span></div>
+                  </div>
+                  <div class="assistant-ui__orb" aria-hidden="true"><i></i><i></i><i></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <div>
+                <span class="project-card__meta">展示位 01 · 重点案例</span>
+                <h3>高校智能教学助手</h3>
+                <p>在此替换智能体名称、应用场景、核心能力与展示素材。</p>
+              </div>
+              <span class="project-status">资料待补充</span>
+            </div>
+          </article>
+
+          <article class="project-card project-card--side spotlight-card reveal">
+            <div class="project-card__visual project-visual project-visual--knowledge" role="img" aria-label="知识库关系网络示意图">
+              <div class="knowledge-map" aria-hidden="true">
+                <span class="knowledge-node knowledge-node--center">知识库</span>
+                <span class="knowledge-node knowledge-node--a">课程</span>
+                <span class="knowledge-node knowledge-node--b">制度</span>
+                <span class="knowledge-node knowledge-node--c">资源</span>
+                <span class="knowledge-node knowledge-node--d">问答</span>
+                <svg viewBox="0 0 420 300" preserveAspectRatio="none"><path d="M210 150 96 72M210 150 330 74M210 150 92 234M210 150 332 230"/></svg>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <div>
+                <span class="project-card__meta">展示位 02</span>
+                <h3>校本知识服务智能体</h3>
+                <p>预留知识范围、应用入口与服务对象。</p>
+              </div>
+              <span class="project-status">资料待补充</span>
+            </div>
+          </article>
+
+          <article class="project-card project-card--wide spotlight-card reveal">
+            <div class="project-card__visual project-visual project-visual--service" role="img" aria-label="校园服务流程界面示意图">
+              <div class="service-flow" aria-hidden="true">
+                <div class="service-flow__header"><span>校园服务智能体</span><i></i></div>
+                <div class="service-flow__steps">
+                  <span><i>01</i>提出问题</span><b></b>
+                  <span><i>02</i>识别意图</span><b></b>
+                  <span><i>03</i>匹配知识</span><b></b>
+                  <span><i>04</i>获得指引</span>
+                </div>
+                <div class="service-flow__answer"><i></i><span></span><span></span><span class="mock-action">查看办理入口</span></div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <div>
+                <span class="project-card__meta">展示位 03 · 场景案例</span>
+                <h3>校园咨询与办事助手</h3>
+                <p>预留服务事项、渠道覆盖与实际应用效果。</p>
+              </div>
+              <span class="project-status">资料待补充</span>
+            </div>
+          </article>
+
+          <article class="project-card project-card--more reveal">
+            <div class="project-card__more-visual" aria-hidden="true">
+              <span></span><span></span><span></span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </div>
+            <div>
+              <span class="project-card__meta">MORE TO COME</span>
+              <h3>更多成果，持续更新</h3>
+              <p>案例资料准备完成后，可继续扩展展示位。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section delivery" aria-labelledby="delivery-title">
+      <div class="container">
+        <div class="section-intro section-intro--center">
+          <div class="eyebrow reveal"><span class="eyebrow__line"></span><span>HOW WE WORK</span></div>
+          <h2 class="section-title reveal" id="delivery-title">从一个需求，到一个<span class="gradient-text">可用的智能体</span></h2>
+          <p class="section-lede reveal">以场景为起点，以实际使用为终点，保持每一步清晰、可协作、可迭代。</p>
+        </div>
+
+        <ol class="delivery-steps">
+          <li class="delivery-step reveal">
+            <span class="delivery-step__number">01</span>
+            <div><h3>需求共创</h3><p>明确目标用户、核心问题与业务边界。</p></div>
+          </li>
+          <li class="delivery-step reveal">
+            <span class="delivery-step__number">02</span>
+            <div><h3>知识梳理</h3><p>整理知识来源、更新机制与回答规范。</p></div>
+          </li>
+          <li class="delivery-step reveal">
+            <span class="delivery-step__number">03</span>
+            <div><h3>搭建验证</h3><p>完成智能体配置，并在真实问题中验证。</p></div>
+          </li>
+          <li class="delivery-step reveal">
+            <span class="delivery-step__number">04</span>
+            <div><h3>上线运营</h3><p>持续观察使用反馈，迭代知识与能力。</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact" id="explore" aria-labelledby="contact-title">
+      <div class="contact__grid" aria-hidden="true"></div>
+      <div class="contact__orb contact__orb--one" aria-hidden="true"></div>
+      <div class="contact__orb contact__orb--two" aria-hidden="true"></div>
+      <div class="container contact__inner reveal">
+        <div class="eyebrow"><span class="eyebrow__line"></span><span>EXPLORE MORE SCENARIOS</span></div>
+        <h2 id="contact-title">更多校园场景，<br>正在等待<span class="gradient-text">智能体</span>加入。</h2>
+        <p>从课程教学、知识服务到校园事务，每一个清晰的问题都可能成为智能体的新场景。</p>
+        <div class="contact__actions">
+          <a class="button button--primary" href="#solutions">
+            <span>浏览能力场景</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="text-link" href="#showcase">查看成品展示 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="contact__hint">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+          更多智能体案例与交互演示将持续补充
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__top">
+      <a class="brand brand--footer" href="#home" aria-label="返回首页">
+        <span class="brand__symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8 14.1 8l5.1 2.1-5.1 2.1L12 17.4l-2.1-5.2-5.1-2.1L9.9 8 12 2.8Z"/><path d="m18.2 15.2.9 2.2 2.1.9-2.1.9-.9 2.2-.9-2.2-2.1-.9 2.1-.9.9-2.2Z"/></svg></span>
+        <span class="brand__text"><strong>高校智能体</strong><small>AI AGENT SHOWCASE</small></span>
+      </a>
+      <p>连接高校知识、场景与智能能力。</p>
+      <nav class="footer__nav" aria-label="页尾导航">
+        <a class="text-link" href="#about">智能体概览</a>
+        <a class="text-link" href="#solutions">智能体方案</a>
+        <a class="text-link" href="#showcase">成品展示</a>
+      </nav>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span data-year></span> 高校智能体应用展示</span>
+      <span>内容持续更新</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
